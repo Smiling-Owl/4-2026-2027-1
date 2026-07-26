@@ -1,0 +1,10 @@
+{{c1::CRISP-DM}} stands for {{c2::Cross Industry Standard Process for Data Mining}}.
+{{c1::Cross Industry Standard Process for Data Mining}} is abbreviated as {{c2::CRISP-DM}}.
+{{c1::CRISP-DM}} is the {{c2::base methodology and process model}} for data science projects.
+The six phases of the CRISP-DM framework are {{c1::Business Understanding}}, {{c2::Data Understanding}}, {{c3::Data Preparation}}, {{c4::Modelling}}, {{c5::Evaluation}}, and {{c6::Deployment}}.
+The {{c1::Business Understanding}} phase of CRISP-DM identifies {{c2::objectives and scope}} and defines the {{c3::core problem}}.
+The {{c1::Data Understanding}} phase of CRISP-DM involves {{c2::gathering relevant data}} from multiple sources based on business needs.
+The {{c1::Data Preparation}} phase of CRISP-DM involves building the {{c2::final dataset}} for modeling and identifying required {{c3::dimensions and variables}}.
+The {{c1::Modelling}} phase of CRISP-DM involves applying {{c2::analytical and algorithmic techniques (e.g., clustering, classification)}}.
+The {{c1::Evaluation}} phase of CRISP-DM validates {{c2::model accuracy and business fit}}, ensuring project alignment with the initial question.
+The {{c1::Deployment}} phase of CRISP-DM involves utilizing model results for {{c2::business value}} and integrating outputs into {{c3::systems or stakeholder reports}}.

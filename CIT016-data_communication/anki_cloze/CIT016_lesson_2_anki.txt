@@ -1,0 +1,13 @@
+{{c1::Analog Systems/Signals}} are {{c2::continuous, smooth physical quantities}} with {{c3::infinite values}}, traditionally used in {{c4::radio and TV}}.
+{{c1::Digital Systems/Signals}} have {{c2::discrete steps/numbers (binary 0s/1s)}} with a {{c3::finite set of values}}, used in {{c4::modern computers}}.
+The advantages of {{c1::Analog Transmission}} include {{c2::simplicity}}, {{c3::signal fidelity}}, and {{c4::real-time processing}}.
+The advantages of {{c1::Digital Transmission}} include {{c2::high accuracy}}, {{c3::efficiency}}, {{c4::multiplexing}}, {{c5::compression}}, and {{c6::security}}.
+{{c1::ADC}} stands for {{c2::Analog-to-Digital Converter}}.
+{{c1::Analog-to-Digital Converter}} is abbreviated as {{c2::ADC}}.
+The {{c1::Analog-to-Digital Converter (ADC)}} converts {{c2::real-world analog signals}} to {{c3::binary for digital circuits/computers}}.
+{{c1::DAC}} stands for {{c2::Digital-to-Analog Converter}}.
+{{c1::Digital-to-Analog Converter}} is abbreviated as {{c2::DAC}}.
+The {{c1::Digital-to-Analog Converter (DAC)}} converts {{c2::digital binary}} back into {{c3::continuous analog voltage levels}}.
+{{c1::Modulation}} is the process of adding {{c2::information}} to a {{c3::constant carrier signal}} for transmission.
+{{c1::Analog Modulation}} varies {{c2::Amplitude (AM)}}, {{c3::Frequency (FM)}}, or {{c4::Phase (PM)}}.
+{{c1::Digital Modulation (Shift Keying)}} shifts {{c2::Amplitude (ASK)}}, {{c3::Frequency (FSK)}}, or {{c4::Phase (PSK)}} to represent digital data.

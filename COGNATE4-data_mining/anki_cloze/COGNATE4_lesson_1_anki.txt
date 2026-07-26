@@ -1,0 +1,14 @@
+{{c1::Data mining}} is the analytical process of sorting {{c2::large datasets}} to find {{c3::patterns}}.
+The objective of data mining is to {{c1::solve business problems using structured data analysis}}.
+Applications of data mining in Telecom/Media include {{c1::targeted ads}} and {{c2::customer behavior prediction}}.
+Applications of data mining in Insurance include {{c1::fraud detection}}, {{c2::risk management}}, and {{c3::compliance}}.
+Applications of data mining in Finance include {{c1::market risk evaluation}} and {{c2::return maximization}}.
+Applications of data mining in Retail include {{c1::product association (joint purchasing)}} and {{c2::optimized placement}}.
+Applications of data mining in Healthcare include {{c1::accurate diagnoses}} via patient history.
+Applications of data mining in Manufacturing include {{c1::just-in-time fulfillment}} and {{c2::predicting equipment failure}}.
+The key techniques used in data mining include {{c1::Classification}}, {{c2::Clustering}}, {{c3::Regression}}, {{c4::Prediction}}, and {{c5::Association Rules}}.
+{{c1::Classification}} is the data mining technique of {{c2::assigning data points into categories}}.
+{{c1::Clustering}} is the data mining technique of {{c2::grouping based on shared characteristics}}.
+{{c1::Regression}} is the data mining technique of {{c2::analyzing relationships between variables}}.
+{{c1::Prediction}} is the data mining technique of finding patterns to {{c2::calculate the probability of future outcomes}}.
+{{c1::Association Rules}} is the data mining technique of {{c2::discovering correlations between data points}}.
