@@ -1,0 +1,26 @@
+[
+  {
+    "id": "Right-0",
+    "title": "Cryptography",
+    "status": "unlocked",
+    "content": "Cryptography is the practice and study of techniques for secure communication in the presence of adversarial behavior. More generally, cryptography is about constructing and analyzing protocols that prevent third parties or the public from reading private messages. Modern cryptography exists at the intersection of the disciplines of mathematics, computer science, electrical engineering, communication science, and physics."
+  },
+  {
+    "id": "Right-4",
+    "title": "Access Control",
+    "status": "unlocked",
+    "content": "Access control is a security technique that regulates who or what can view or use resources in a computing environment. It is a fundamental concept in security that minimizes risk to the business or organization. There are two main types of access control: physical and logical."
+  },
+  {
+    "id": "Front-4",
+    "title": "Malware & Ransomware",
+    "status": "unlocked",
+    "content": "Malware, or malicious software, is any program or file that is harmful to a computer user. Types of malware can include computer viruses, worms, Trojan horses and spyware. Ransomware is a type of malware from cryptovirology that threatens to publish the victim's personal data or perpetually block access to it unless a ransom is paid."
+  },
+  {
+    "id": "Top-8",
+    "title": "Network Security",
+    "status": "unlocked",
+    "content": "Network security consists of the policies and practices adopted to prevent and monitor unauthorized access, misuse, modification, or denial of a computer network and network-accessible resources. Network security involves the authorization of access to data in a network, which is controlled by the network administrator."
+  }
+]
