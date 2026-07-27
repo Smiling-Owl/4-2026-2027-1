@@ -3,12 +3,6 @@ The process of bringing {{c1::different systems together into one unified, inter
 Poor or ad-hoc system integration is referred to as {{c1::Spaghetti Integration}}.
 {{c1::Enterprise Integration}} is a {{c2::strategic approach}} achieving {{c3::interoperability between IT applications}} that is {{c4::business-driven}} rather than technology-driven.
 The business problems solved by integration include {{c1::Information Aggregation}}, providing a {{c2::single point of entry}}, reducing {{c3::process inefficiency}}, and enabling {{c4::web channel & supplier integration}}.
-The four main Systems Integration Methods are {{c1::Horizontal Integration}}, {{c2::Vertical Integration}}, {{c3::Star Integration}}, and {{c4::Common data format}}.
-{{c1::Horizontal Integration}} uses a subsystem as an interface between all others, also known as an {{c2::Enterprise Service Bus (ESB)}}.
-{{c1::Vertical Integration}} creates {{c2::depositories or silos}}.
-{{c1::Star Integration}} connects sub-systems using {{c2::point-to-point connections}}.
-The primary types of integration are {{c1::Enterprise Application Integration (EAI)}}, {{c2::Data Integration (DI)}}, and {{c3::Electronic Data Interchange (EDI)}}.
-{{c1::Enterprise Application Integration (EAI)}} connects {{c2::internal workflows and applications}} for {{c3::real-time actions}}.
-{{c1::Data Integration (DI)}} consolidates {{c2::raw data from multiple databases}} into a {{c3::single repository for analytics}}.
-{{c1::Electronic Data Interchange (EDI)}} facilitates {{c2::secure, computer-to-computer exchange of standardized documents}} between {{c3::external partners}}.
+The main Systems Integration Methods are: {{c1::Horizontal Integration}} (uses a subsystem as an interface between all others, also known as an {{c2::Enterprise Service Bus (ESB)}}), {{c3::Vertical Integration}} (creates {{c4::depositories or silos}}), {{c5::Star Integration}} (connects sub-systems using {{c6::point-to-point connections}}), and {{c7::Common data format}}.
+The primary types of integration are: {{c1::Enterprise Application Integration (EAI)}} (connects {{c2::internal workflows and applications}} for {{c3::real-time actions}}), {{c4::Data Integration (DI)}} (consolidates {{c5::raw data from multiple databases}} into a {{c6::single repository for analytics}}), and {{c7::Electronic Data Interchange (EDI)}} (facilitates {{c8::secure, computer-to-computer exchange of standardized documents}} between {{c9::external partners}}).
 The five general steps in Systems Integration are {{c1::Requirements Gathering}}, {{c2::Data Analysis}}, {{c3::Design Architecture}}, {{c4::Design Systems integration}}, and {{c5::System Implementation}}.

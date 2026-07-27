@@ -3,16 +3,8 @@ Managing {{c1::data transmission}} and ensuring {{c2::reliable, ordered, error-c
 {{c1::IP (Internet Protocol)}} is the core internet protocol that handles {{c2::logical transmission, addressing, and routing via IP addresses}}.
 Handling {{c1::logical transmission, addressing, and routing via IP addresses}} is the role of {{c2::IP (Internet Protocol)}}.
 The four layers of the TCP/IP stack are {{c1::Application}}, {{c2::Transport}}, {{c3::Internet/Network}}, and {{c4::Network Access / Data Link}}.
-The {{c1::Application Layer}} in the TCP/IP stack provides {{c2::network services directly to end-user apps}} and {{c3::generates data}}.
-The {{c1::Transport Layer (TCP)}} in the TCP/IP stack is responsible for {{c2::end-to-end communication}}, {{c3::data integrity}}, {{c4::error recovery}}, and {{c5::flow control}}.
-The {{c1::Internet/Network Layer (IP)}} in the TCP/IP stack handles {{c2::logical transmission}} and {{c3::routing packets via IP addresses}}.
-The {{c1::Network Access / Data Link Layer}} in the TCP/IP stack is responsible for {{c2::error prevention}} and {{c3::physical framing}}.
-The TCP/IP Application layer maps to the OSI {{c1::Application, Presentation, and Session layers}}.
-The TCP/IP Transport layer maps to the OSI {{c1::Transport layer}}.
-The TCP/IP Internet layer maps to the OSI {{c1::Network layer}}.
-The TCP/IP Network Access layer maps to the OSI {{c1::Data Link and Physical layers}}.
-The TCP/IP model has {{c1::4}} layers, whereas the OSI model has {{c2::7}} layers.
-The TCP/IP model takes a {{c1::horizontal/connectionless}} approach, whereas the OSI model is {{c2::vertical}}.
-TCP/IP {{c1::does not guarantee packet delivery by default}}, whereas OSI features {{c2::guaranteed delivery}}.
+In the TCP/IP stack, the {{c1::Application Layer}} provides {{c2::network services directly to end-user apps}} and {{c3::generates data}}, the {{c4::Transport Layer (TCP)}} is responsible for {{c5::end-to-end communication}}, {{c6::data integrity}}, {{c7::error recovery}}, and {{c8::flow control}}, the {{c9::Internet/Network Layer (IP)}} handles {{c10::logical transmission}} and {{c11::routing packets via IP addresses}}, and the {{c12::Network Access / Data Link Layer}} is responsible for {{c13::error prevention}} and {{c14::physical framing}}.
+The TCP/IP layers map to the OSI model as follows: Application maps to {{c1::Application, Presentation, and Session layers}}, Transport maps to {{c2::Transport layer}}, Internet maps to {{c3::Network layer}}, and Network Access maps to {{c4::Data Link and Physical layers}}.
+Compared to the OSI model, the TCP/IP model has {{c1::4}} layers instead of {{c2::7}}, takes a {{c3::horizontal/connectionless}} approach instead of {{c4::vertical}}, and {{c5::does not guarantee packet delivery by default}} whereas OSI features {{c6::guaranteed delivery}}.
 In TCP/IP, the Network Layer is {{c1::connectionless (IP)}} and relies on the Transport layer for connections, whereas the OSI Network provides {{c2::both connectionless and connection-oriented services}}.
 {{c1::OSI protocols}} are easier to replace than {{c2::TCP/IP protocols}}.

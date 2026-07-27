@@ -9,5 +9,4 @@ The {{c1::Analog-to-Digital Converter (ADC)}} converts {{c2::real-world analog s
 {{c1::Digital-to-Analog Converter}} is abbreviated as {{c2::DAC}}.
 The {{c1::Digital-to-Analog Converter (DAC)}} converts {{c2::digital binary}} back into {{c3::continuous analog voltage levels}}.
 {{c1::Modulation}} is the process of adding {{c2::information}} to a {{c3::constant carrier signal}} for transmission.
-{{c1::Analog Modulation}} varies {{c2::Amplitude (AM)}}, {{c3::Frequency (FM)}}, or {{c4::Phase (PM)}}.
-{{c1::Digital Modulation (Shift Keying)}} shifts {{c2::Amplitude (ASK)}}, {{c3::Frequency (FSK)}}, or {{c4::Phase (PSK)}} to represent digital data.
+{{c1::Analog Modulation}} varies {{c2::Amplitude (AM)}}, {{c3::Frequency (FM)}}, or {{c4::Phase (PM)}}, whereas {{c5::Digital Modulation (Shift Keying)}} shifts {{c6::Amplitude (ASK)}}, {{c7::Frequency (FSK)}}, or {{c8::Phase (PSK)}} to represent digital data.

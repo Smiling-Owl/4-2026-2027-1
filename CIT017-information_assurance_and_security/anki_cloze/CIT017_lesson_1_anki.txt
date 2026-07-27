@@ -1,27 +1,12 @@
 The {{c1::McCumber Cube}} is a {{c2::3D framework}} used to evaluate information system security by analyzing the interaction between three dimensions.
 A {{c1::3D framework}} used to evaluate information system security by analyzing the interaction between three dimensions is known as the {{c2::McCumber Cube}}.
 The three dimensions of the McCumber Cube are {{c1::Information States}}, {{c2::Security Goals (CIA Triad)}}, and {{c3::Countermeasures}}.
-The three Information States (Data Status) in the McCumber Cube are {{c1::Transmission (Data in Motion)}}, {{c2::Storage (Data at Rest)}}, and {{c3::Processing (Data in Use)}}.
-In the McCumber Cube, {{c1::Transmission}} is also known as {{c2::Data in Motion}} and refers to {{c3::data traveling over a network}}.
-In the McCumber Cube, {{c1::Storage}} is also known as {{c2::Data at Rest}} and refers to {{c3::data sitting on a hard drive or database}}.
-In the McCumber Cube, {{c1::Processing}} is also known as {{c2::Data in Use}} and refers to {{c3::data currently being updated or calculated in RAM}}.
-The Security Goals in the McCumber Cube are represented by the {{c1::CIA Triad}}, which stands for {{c2::Confidentiality, Integrity, and Availability}}.
-{{c1::Confidentiality}} is the security goal of protecting against {{c2::unauthorized disclosure}}.
-{{c1::Integrity}} is the security goal of protecting against {{c2::unauthorized modification}}.
-{{c1::Availability}} is the security goal of ensuring {{c2::timely and reliable access}}.
-The three categories of Countermeasures in the McCumber Cube are {{c1::Technology}}, {{c2::People}}, and {{c3::Policies & Practices}}.
-In the McCumber Cube, the Technology countermeasure includes {{c1::hardware and software (e.g., Firewalls, Encryption)}}.
-In the McCumber Cube, the People countermeasure includes {{c1::awareness, training, and ethics}}.
-In the McCumber Cube, the Policies & Practices countermeasure includes {{c1::Standard Operating Procedures (SOPs), laws, and rules}}.
-The three main functional controls in information security are {{c1::Prevention}}, {{c2::Detection}}, and {{c3::Mitigation (Response)}}.
-{{c1::Prevention}} is the functional control of {{c2::stopping the attack before it happens}}.
-{{c1::Detection}} is the functional control of {{c2::identifying that an attack is happening or has already happened}}.
-{{c1::Mitigation (Response)}} is the functional control of {{c2::limiting the damage once an incident is detected}}.
-The {{c1::AAA Framework}} stands for {{c2::Authentication, Authorization, and Accounting / Auditing}}.
-{{c1::Authentication}} answers the question {{c2::"Who are you?"}} by {{c3::proving identity}}.
+The three Information States (Data Status) in the McCumber Cube are {{c1::Transmission (Data in Motion)}} which refers to {{c2::data traveling over a network}}, {{c3::Storage (Data at Rest)}} which refers to {{c4::data sitting on a hard drive or database}}, and {{c5::Processing (Data in Use)}} which refers to {{c6::data currently being updated or calculated in RAM}}.
+The Security Goals in the McCumber Cube are represented by the {{c1::CIA Triad}}, which stands for {{c2::Confidentiality}} (protecting against {{c3::unauthorized disclosure}}), {{c4::Integrity}} (protecting against {{c5::unauthorized modification}}), and {{c6::Availability}} (ensuring {{c7::timely and reliable access}}).
+The three categories of Countermeasures in the McCumber Cube are {{c1::Technology}} which includes {{c2::hardware and software (e.g., Firewalls, Encryption)}}, {{c3::People}} which includes {{c4::awareness, training, and ethics}}, and {{c5::Policies & Practices}} which includes {{c6::Standard Operating Procedures (SOPs), laws, and rules}}.
+The three main functional controls in information security are {{c1::Prevention}} ({{c2::stopping the attack before it happens}}), {{c3::Detection}} ({{c4::identifying that an attack is happening or has already happened}}), and {{c5::Mitigation (Response)}} ({{c6::limiting the damage once an incident is detected}}).
+The {{c1::AAA Framework}} stands for {{c2::Authentication}} (answering {{c3::"Who are you?"}} by {{c4::proving identity}}), {{c5::Authorization}} (answering {{c6::"What are you allowed to do?"}} by {{c7::defining permissions}}), and {{c8::Accounting / Auditing}} (answering {{c9::"What did you do?"}} by {{c10::tracking user actions}}).
 The three authentication factors are {{c1::Knowledge (Password)}}, {{c2::Possession (OTP/Token)}}, and {{c3::Inherence (Biometrics)}}.
-{{c1::Authorization}} answers the question {{c2::"What are you allowed to do?"}} by {{c3::defining permissions}}.
-{{c1::Accounting / Auditing}} answers the question {{c2::"What did you do?"}} by {{c3::tracking user actions}}.
 {{c1::Non-repudiation}} is a concept in Accounting that ensures {{c2::a user cannot deny performing an action because the logs provide definitive proof}}.
 The principle of {{c1::Least Privilege}} states that users should be given {{c2::only the minimum permissions necessary to perform their job}}.
 The principle of {{c1::Need-to-Know}} means that having clearance does not guarantee access; data is only accessible if {{c2::required for the current task}}.
