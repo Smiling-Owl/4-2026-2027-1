@@ -1,0 +1,118 @@
+Stakeholders and Initial Landscape
+Who are the stakeholders (who are involved)?
+
+Global Medical Leadership: Phil Thompson (CEO), Betty Reynolds (VP of Operations), Mike Randolph (VP of Information Systems), Sal Valentino (Director in Operations), and Steve Winters (Project Manager for M&A).  
+PDF
+
+Health Tech Leadership: Sam Knox (Founder) and Linda Kowolski (IT expert on the board).  
+PDF
+
+Health Tech Employees: Brian (Documentation Analyst), Heather (Purchasing Agent), Dave (Line Supervisor), Tom Larson (Warehouse), and the R&D staff.  
+PDF
+
+External: Shareholders and venture capitalists.  
+PDF
+
+What is the initial landscape (before the integration)?
+
+Global Medical was a highly successful, large US healthcare company known for effectively utilizing IT in its distribution and operations.  
+PDF
+
+Health Tech was a smaller company making customized orthopedic screws.  
+PDF
+
+Health Tech had recently upgraded its IT systems using venture capital funds, but was struggling to survive due to the 2009 recession and a drying up of capital.  
+PDF
+
+Challenges and Goals
+What are the challenges (issues, problems)?
+
+A major pre-integration problem was the lack of proper IT due diligence; Mike Randolph, the VP of IS, skipped the site visit and relied on an emailed summary.  
+PDF
+
+During implementation, employees were overwhelmed by corporate emails, causing some to miss training notices for the new systems.  
+PDF
+
+Training for the new ERP system was confusing, the instructor was disengaging, and some departments (like R&D) were initially forgotten completely.  
+PDF
+
+Why is there a need for integration? What is the goal?
+
+Global Medical's goal was to acquire Health Tech at a lower price to gain a strategic foothold in the southeastern United States orthopedic market.  
+PDF
+
+They needed to integrate the companies to eliminate overlapping IT systems, utilize Health Tech's brand for pull-through sales of other products, and eventually bring Health Tech's manufacturing into Global Medical's own facilities.  
+PDF
+
+How is integration viewed in this particular case study?
+
+Global Medical executives viewed the integration as a rapid, 60-day strategic deployment of their superior manufacturing expertise and computer systems.  
+PDF
+
+Steve Winters (Project Manager) initially viewed integration friction merely as typical employee resistance to change and insubordination.  
+PDF
+
+Health Tech employees viewed the integration with anxiety, and many felt the new IT systems made their jobs more complicated.  
+PDF
+
+Solution and Execution
+What is the solution being described in the study?
+
+The primary solution was migrating Health Tech onto Global Medical’s existing enterprise architecture, specifically training them on Global Medical's Product Lifecycle Management (PLM) and Enterprise Resource Planning (ERP) systems.  
+PDF
+
+Were there challenges encountered during the integration?
+
+Yes. Warehouse and receiving employees struggled to process orders through the new ERP system, particularly non-standard orders.  
+PDF
+
+Because the new system was mandatory, the warehouse staff could no longer use the old manual workaround (paper material requisition forms) to keep the line moving.  
+PDF
+
+Results and Post-Integration Landscape
+What is the resulting landscape (after the integration)?
+
+Manufacturing efficiency dropped significantly below pre-acquisition levels.  
+PDF
+
+The production line was frequently shut down for hours waiting for materials that were physically in the building but stuck in the ERP system queue.  
+PDF
+
+Global Medical faced mounting pressure from shareholders because the inefficient production was translating to higher costs and weak revenue streams.  
+PDF
+
+Were the problems addressed (after the integration)?
+
+The case study concludes right as the root cause is finally identified.  
+PDF
+
+Sal Valentino discovered that the drop in manufacturing efficiency was not a production issue or sabotage, but an IT and training failure in the warehouse and receiving departments.  
+PDF
+
+Were there improvements? If YES, what are those improvements? If NO, what happened, and why didn't the integration work?
+
+There were isolated improvements: Brian found the PLM system greatly improved document revision control by allowing electronic routing and approvals.  
+PDF
+
+However, the broader integration failed to work smoothly because Global Medical rushed the ERP implementation, failed to thoroughly audit the existing IT landscape, and provided inadequate user training.  
+PDF
+
+Were there new challenges (after integration)?
+
+Yes, the bottleneck created by the new ERP system forced manufacturing employees to work expensive overtime to try and meet their production quotas.  
+PDF
+
+The project manager, Steve Winters, faced a new challenge of having to explain this systemic failure to the CEO and shareholders.  
+PDF
+
+Expert Thoughts and Conclusions
+What are your thoughts on Systems Integration after reading this case study?
+Systems integration is a socio-technical challenge, not just a hardware or software deployment. This case study highlights that forcing a complex system (like an Enterprise Resource Planning tool) onto a workforce without adequate training, communication, and process alignment will paralyze physical operations. A technically superior system is useless if the end-users cannot operate it to perform basic business functions.
+
+What can you conclude about planning, implementing/executing systems integration for an organization or enterprise?
+
+Planning: Never skip technical due diligence. Assuming existing systems are "fine" or relying on high-level summaries leads to blind spots. IT leadership must be physically and strategically involved from day one.
+
+Implementing: Change management and communication are just as critical as data mapping. Flooding employees with generic emails ensures critical training notices get lost.
+
+Executing: When metrics (like manufacturing efficiency) drop during an integration, executives must investigate workflows on the ground. Blaming the drop on "insubordination" or "resistance to change" often masks deep, architectural process failures.
