@@ -1,0 +1,85 @@
+{{c1::Social Engineering}} is the {{c2::psychological manipulation}} of individuals into {{c3::performing actions or divulging confidential information}}.
+The {{c1::psychological manipulation}} of individuals into {{c2::performing actions or divulging confidential information}} is known as {{c3::Social Engineering}}.
+Rather than exploiting {{c1::technical vulnerabilities}} in software or hardware, Social Engineering targets the {{c2::"human element"}}, relying on {{c3::human error}}, {{c4::trust}}, and {{c5::cognitive biases}} to bypass security measures.
+{{c1::Phishing}} involves fraudulent mass emails posing as a {{c2::legitimate entity}} to trick victims into {{c3::revealing credentials or clicking malicious links}}.
+Fraudulent mass emails posing as a {{c1::legitimate entity}} to trick victims into {{c2::revealing credentials or clicking malicious links}} is known as {{c3::Phishing}}.
+An example of {{c1::phishing}} is an email claiming to be from your bank asking you to {{c2::verify your account information}}.
+{{c1::Spear Phishing}} is a targeted form of phishing directed at a {{c2::specific individual or organization}} using {{c3::personalized information}}.
+A targeted form of phishing directed at a {{c1::specific individual or organization}} using {{c2::personalized information}} is known as {{c3::Spear Phishing}}.
+An example of {{c1::spear phishing}} is an email addressed to a university professor mentioning a {{c2::current research project}} and requesting login verification.
+{{c1::Whaling}} is a highly targeted form of spear-phishing that specifically goes after {{c2::"big fish"}} such as {{c3::high-level executives or C-suite individuals}}.
+A highly targeted form of spear-phishing that specifically goes after {{c1::"big fish"}} such as {{c2::high-level executives or C-suite individuals}} is known as {{c3::Whaling}}.
+An example of {{c1::whaling}} is a fake email sent to a CEO requesting approval for an {{c2::urgent financial transaction}}.
+In {{c1::Business Email Compromise (BEC)}} or {{c2::CEO Fraud}}, an attacker compromises or spoofs an {{c3::executive's email account}} and instructs an employee to {{c4::transfer funds or send sensitive data}}.
+An example of {{c1::Business Email Compromise (BEC)}} is when a finance department receives an email appearing to come from the company president requesting an {{c2::urgent wire transfer}}.
+In 2019, {{c1::Toyota Boshoku}} lost approximately {{c2::$37 million}} to Business Email Compromise (BEC).
+In {{c1::Clone Phishing}}, an attacker intercepts a {{c2::legitimate, previously delivered email}}, clones it, replaces the {{c3::safe link/attachment with a malicious one}}, and resends it from a {{c4::spoofed address}}.
+{{c1::Vishing}} is voice phishing using {{c2::telephone calls or voice messages}}.
+Voice phishing using {{c1::telephone calls or voice messages}} is known as {{c2::Vishing}}.
+An example of {{c1::vishing}} is someone pretending to be from the bank calling and asking you to confirm your {{c2::account number and OTP}}.
+{{c1::Deepfake}} or {{c2::AI Voice Cloning}} is an emerging technique where attackers use AI to {{c3::clone the voice of a trusted individual}} to authorize {{c4::fraudulent transactions}}.
+{{c1::Smishing}} is phishing conducted through {{c2::SMS or text messages}}.
+Phishing conducted through {{c1::SMS or text messages}} is known as {{c2::Smishing}}.
+An example of {{c1::smishing}} is a text message claiming you have won a prize and asking you to {{c2::click a link}}.
+{{c1::Tailgating}} or {{c2::Piggybacking}} is gaining unauthorized physical access by {{c3::following an authorized person into a restricted area}}.
+Gaining unauthorized physical access by {{c1::following an authorized person into a restricted area}} is known as {{c2::Tailgating}} or {{c3::Piggybacking}}.
+An example of {{c1::tailgating}} is an individual carrying heavy boxes asking an employee to hold the secure office door open, exploiting basic human {{c2::politeness}} to bypass {{c3::badge readers}}.
+{{c1::Dumpster Diving}} is searching {{c2::discarded documents or devices}} for {{c3::confidential information}}.
+Searching {{c1::discarded documents or devices}} for {{c2::confidential information}} is known as {{c3::Dumpster Diving}}.
+An example of {{c1::dumpster diving}} is retrieving printed payroll reports or customer records from an {{c2::unsecured trash bin}}.
+{{c1::Shoulder Surfing}} is directly observing a user to {{c2::steal sensitive information}}.
+Directly observing a user to {{c1::steal sensitive information}} is known as {{c2::Shoulder Surfing}}.
+An example of {{c1::shoulder surfing}} is watching someone enter their {{c2::ATM PIN or office login password}} at a coffee shop.
+{{c1::Diversion Theft}} is manipulating a {{c2::delivery or transport process}} to route sensitive packages to a location {{c3::controlled by the attacker}}.
+{{c1::Baiting}} is offering something {{c2::attractive}} to entice victims into performing an action that {{c3::compromises security}}.
+Offering something {{c1::attractive}} to entice victims into performing an action that {{c2::compromises security}} is known as {{c3::Baiting}}.
+An example of {{c1::baiting}} is leaving a USB drive labeled "Employee Salary List" in a company parking lot, hoping someone plugs it into a computer out of {{c2::curiosity}}.
+An {{c1::Evil Twin}} is a fraudulent {{c2::Wi-Fi access point}} that appears to be a legitimate network to {{c3::intercept traffic}}.
+A fraudulent {{c1::Wi-Fi access point}} that appears to be a legitimate network to {{c2::intercept traffic}} is known as an {{c3::Evil Twin}}.
+{{c1::Impersonation}} and {{c2::Pretexting}} involves creating a {{c3::fabricated scenario or false identity}} to establish trust and manipulate the victim into {{c4::disclosing information}}.
+An example of {{c1::pretexting}} is a caller pretending to be an IT technician who needs your password to fix your computer, or an attacker wearing a {{c2::delivery uniform}} to enter a restricted office.
+A {{c1::Watering Hole Attack}} involves compromising a {{c2::website frequently visited by the intended victims}} to {{c3::infect their devices}}.
+Compromising a {{c1::website frequently visited by the intended victims}} to {{c2::infect their devices}} is known as a {{c3::Watering Hole Attack}}.
+An example of a {{c1::watering hole attack}} is attackers compromising an industry association's website knowing employees {{c2::regularly visit it}}.
+A {{c1::Honeytrap}} or {{c2::Romance Scam}} involves building a {{c3::personal or romantic relationship online}} to gain trust and eventually obtain {{c4::money or confidential information}}.
+Building a {{c1::personal or romantic relationship online}} to gain trust and eventually obtain {{c2::money or confidential information}} is known as a {{c3::Honeytrap}} or {{c4::Romance Scam}}.
+Honeytraps frequently evolve into {{c1::"pig butchering" scams}}, where victims are lured into {{c2::fake cryptocurrency investments}} after {{c3::emotional trust is built}}.
+{{c1::Quid Pro Quo}} is offering a {{c2::service or benefit}} in exchange for {{c3::information or access}}.
+Offering a {{c1::service or benefit}} in exchange for {{c2::information or access}} is known as {{c3::Quid Pro Quo}}.
+An example of {{c1::quid pro quo}} is someone offering {{c2::free technical support}} if the employee provides their {{c3::login credentials}}.
+In {{c1::Reverse Social Engineering}}, the attacker creates a {{c2::problem}} and then presents themselves as the person who can {{c3::solve it}}, causing victims to {{c4::seek their help voluntarily}}.
+An example of {{c1::reverse social engineering}} is an attacker disrupting a printer, then offering "technical support" and asking for {{c2::administrator credentials}} to fix it.
+{{c1::Scareware}} is displaying {{c2::fake warnings or security alerts}} to frighten users into {{c3::installing malicious software}}.
+Displaying {{c1::fake warnings or security alerts}} to frighten users into {{c2::installing malicious software}} is known as {{c3::Scareware}}.
+An example of {{c1::scareware}} is a pop-up claiming that your computer is infected and instructing you to {{c2::download a "security tool"}}.
+{{c1::Pharming}} is redirecting a user from a {{c2::legitimate website}} to a {{c3::fraudulent one}} to steal login details.
+{{c1::Typosquatting}} is registering {{c2::misspelled domains}} to steal login details.
+In {{c1::Angler Phishing}}, attackers monitor social media for {{c2::customer complaints to brands}}, then pose as {{c3::official customer support agents}} to extract credentials.
+Social engineering attackers rely on {{c1::cognitive biases}} and the brain's fast, emotional response mode, often called {{c2::"System 1"}} thinking.
+The core psychological tactics used in social engineering to bypass human judgment are heavily aligned with the principles of {{c1::Dr. Robert Cialdini}}.
+The psychological tactic of {{c1::Authority}} involves leveraging a {{c2::position of power or trusted role}} so victims comply without questioning.
+A real-world example of the {{c1::Authority}} tactic is an attacker stating, "I'm from the {{c2::IT Department}} and I need your password to fix the server."
+The psychological tactic of {{c1::Scarcity / Urgency}} involves creating a false sense of {{c2::time pressure or limited supply}} to rush the victim into making mistakes.
+A real-world example of the {{c1::Scarcity / Urgency}} tactic is an attacker stating, "Respond within {{c2::30 minutes}} or your account will be suspended."
+The psychological tactic of {{c1::Fear}} involves exploiting anxiety over {{c2::security, legal, or financial consequences}}.
+A real-world example of the {{c1::Fear}} tactic is an attacker stating, "Your bank account has been {{c2::compromised by hackers}}."
+The psychological tactic of {{c1::Curiosity}} involves enticing victims with {{c2::intriguing, secret, or forbidden information}}.
+A real-world example of the {{c1::Curiosity}} tactic used heavily in corporate phishing is a file named "{{c2::Confidential Salary Adjustments 2026.xlsx}}".
+The psychological tactic of {{c1::Greed}} involves promising {{c2::financial gain or valuable prizes}} to lure targets, overriding {{c3::rational judgment}}.
+A real-world example of the {{c1::Greed}} tactic is an attacker stating, "Claim your {{c2::₱10,000 reward}} now!"
+The psychological tactic of {{c1::Liking / Familiarity}} involves building rapport or masquerading as {{c2::someone known}} to lower defenses.
+A real-world example of the {{c1::Liking / Familiarity}} tactic is an attacker pretending to be a {{c2::friend from high school}} on Facebook asking for emergency funds.
+The psychological tactic of {{c1::Sympathy / Helpfulness}} involves appealing to {{c2::compassion and human kindness}}, often by inventing a {{c3::fake emergency}}.
+A real-world example of the {{c1::Sympathy / Helpfulness}} tactic is asking an employee to hold a secure door open because {{c2::their hands are full}}.
+The psychological tactic of {{c1::Reciprocity}} involves exploiting the human tendency to {{c2::give something back}} when given a {{c3::favor or gift}}.
+A real-world example of the {{c1::Reciprocity}} tactic is offering {{c2::free software}} in exchange for completing a "quick security survey" that asks for credentials.
+The psychological tactic of {{c1::Commitment / Consistency}} involves securing a {{c2::small "yes"}} before asking for a {{c3::larger compromise}}.
+A real-world example of the {{c1::Commitment / Consistency}} tactic is asking a {{c2::simple non-security question}} first to establish a dialogue before asking for sensitive data.
+The {{c1::"Weakest Link"}} concept states that the {{c2::human element}} remains the most vulnerable point in any security architecture.
+{{c1::SETA}} stands for {{c2::Security Education, Training, and Awareness}}.
+{{c1::Security Education, Training, and Awareness}} is abbreviated as {{c2::SETA}}.
+Because social engineering exploits human psychology, organizations must use {{c1::SETA programs}} as the primary organizational defense to train personnel to recognize the {{c2::warning signs of manipulation}}.
+Texts like the Information Security Management Handbook stress that security is a triad of {{c1::People}}, {{c2::Process}}, and {{c3::Technology}}.
+If technical controls are strong, attackers pivot to exploiting the {{c1::"People"}} and {{c2::"Process"}} components of the security triad.
+The Information Technology Security Handbook notes that social engineering frequently bleeds into the {{c1::physical realm}}, where a convincing {{c2::pretext}} can allow an attacker to bypass physical access controls.
+The primary texts referenced for social engineering include {{c1::Principles of Information Security}} by Whitman & Mattord, {{c2::Information Security: The Complete Reference}} by Rhodes-Ousley, {{c3::Information Security Management Handbook}} by Tipton & Krause, {{c4::Information Technology Security Handbook}} by Sadowsky et al., and {{c5::Information Security Fundamentals}} by Peltier et al.
