@@ -1,0 +1,18 @@
+An error occurs when the {{c1::data received}} does not match the {{c2::data sent}}.
+Noise can introduce {{c1::errors in binary bits}} as they travel from {{c2::sender to receiver}}.
+A {{c1::single-bit error}} changes {{c2::exactly one bit}} in a transmitted data unit.
+A {{c1::multiple-bit error}} damages {{c2::more than one bit}} during transmission.
+A {{c1::burst error}} flips {{c2::several consecutive bits}}.
+Under {{c1::even parity}}, append {{c2::1}} when the data has an odd number of 1s and append {{c3::0}} when it has an even number.
+A {{c1::two-dimensional parity check}} calculates parity for every {{c2::row}} and {{c3::column}}.
+A {{c1::checksum}} divides data into {{c2::equal-sized segments}} and adds them using {{c3::one's-complement arithmetic}}.
+{{c1::CRC}} stands for {{c2::Cyclic Redundancy Check}}.
+CRC uses {{c1::binary division}}, whereas a checksum uses {{c2::segment addition}}.
+At the CRC receiver, a {{c1::zero remainder}} means {{c2::accept the data}}, while a {{c3::nonzero remainder}} means {{c4::reject it as damaged}}.
+{{c1::Backward error correction}} requests {{c2::retransmission}} after the receiver detects an error.
+{{c1::Forward error correction}} uses {{c2::redundant error-correcting code}} so the receiver can recover certain errors without retransmission.
+For Hamming code, the number of parity bits must satisfy {{c1::2^p >= d + p + 1}}, where {{c2::p is the number of parity bits}} and {{c3::d is the number of data bits}}.
+Hamming parity bits occupy positions that are {{c1::powers of two}}: {{c2::1, 2, 4, 8, ...}}.
+For 7 data bits, Hamming code requires {{c1::4 parity bits}} because {{c2::2^4 >= 7 + 4 + 1}}.
+In the `1011001` example, the parity values are {{c1::R1 = 0}}, {{c2::R2 = 1}}, {{c3::R4 = 1}}, and {{c4::R8 = 0}}.
+The final Hamming codeword for the worked `1011001` example is {{c1::10101001110}} when read from position 11 down to position 1.

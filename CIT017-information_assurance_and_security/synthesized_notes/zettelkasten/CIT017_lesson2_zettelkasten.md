@@ -2,7 +2,7 @@
 
 ## ZK-012: Social Engineering Definition
 **Tags**: `#social-engineering` `#human-element` `#psychological-manipulation`
-**Related**: [[ZK-017: Psychological Tactics in SE]], [[ZK-018: The Weakest Link Concept]]
+**Related**: [[ZK-017: Psychological Tactics in SE]], [[ZK-018: The Weakest Link Concept]], [[ZK-021: Pretexting vs. Impersonation]]
 
 **Note**: 
 Social Engineering is the psychological manipulation of individuals to perform actions or divulge confidential information. It bypasses technical controls (firewalls, encryption) by targeting the "human element"—exploiting trust, human error, and cognitive biases.
@@ -48,7 +48,7 @@ Social Engineering is the psychological manipulation of individuals to perform a
 
 ## ZK-016: Web, Interactive & Social Media Attacks
 **Tags**: `#watering-hole` `#quid-pro-quo` `#honeytrap` `#reverse-se` `#angler-phishing` `#pharming`
-**Related**: [[ZK-015: Physical & Network SE Attacks]]
+**Related**: [[ZK-015: Physical & Network SE Attacks]], [[ZK-021: Pretexting vs. Impersonation]], [[ZK-022: Scareware]], [[ZK-023: Techniques Can Cross Communication Channels]]
 
 **Note**: 
 - **Watering Hole**: Compromising a specific website frequently visited by a target group.
@@ -99,3 +99,42 @@ A foundational concept in InfoSec (Whitman, Rhodes-Ousley) stating that the huma
 
 **Note**: 
 Social engineering is a prime example of why security is a triad of **People, Process, and Technology**. A convincing pretext can bypass physical access controls (like a human receptionist) just as effectively as a digital vulnerability, demonstrating that logical and physical security are deeply intertwined.
+
+---
+
+## ZK-021: Pretexting vs. Impersonation
+**Tags**: `#pretexting` `#impersonation` `#social-engineering`
+**Related**: [[ZK-012: Social Engineering Definition]], [[ZK-016: Web, Interactive & Social Media Attacks]], [[ZK-023: Techniques Can Cross Communication Channels]]
+
+**Note**:
+Pretexting and impersonation often work together but describe different parts of an attack:
+- **Pretexting** is the fabricated story or scenario used to justify a request, such as an alleged IT repair.
+- **Impersonation** is pretending to be a trusted person or authority, such as a technician, delivery worker, or coworker.
+
+An attacker may impersonate IT staff and use a maintenance pretext to request a password.
+
+---
+
+## ZK-022: Scareware
+**Tags**: `#scareware` `#fear` `#malware` `#social-engineering`
+**Related**: [[ZK-016: Web, Interactive & Social Media Attacks]], [[ZK-017: Psychological Tactics in SE]]
+
+**Note**:
+Scareware displays a false warning or security alert to frighten a victim into installing malicious software or paying for a fake service. A typical example is a pop-up claiming that the computer is infected and directing the user to download a fraudulent "security tool."
+
+Scareware weaponizes fear and urgency rather than proving that a real infection exists.
+
+---
+
+## ZK-023: Techniques Can Cross Communication Channels
+**Tags**: `#communication-channels` `#attack-vectors` `#social-engineering`
+**Related**: [[ZK-013: Email-Based Attacks (Phishing Variants)]], [[ZK-014: Voice and Text-Based Attacks]], [[ZK-015: Physical & Network SE Attacks]], [[ZK-021: Pretexting vs. Impersonation]]
+
+**Note**:
+A social engineering **technique** is the method of manipulation; a **channel** is how the attacker reaches the victim. They are not one-to-one.
+
+- Email commonly carries phishing and can also deliver pretexting, baiting, scareware, reverse social engineering, and impersonation.
+- Phone supports vishing and other impersonation-based methods; SMS supports smishing and pretexting.
+- Social media supports targeted phishing, pretexting, and impersonation.
+- In-person contact supports tailgating, shoulder surfing, pretexting, quid pro quo, reverse social engineering, and impersonation.
+- Physical objects or waste enable baiting and dumpster diving, while website pop-ups commonly deliver scareware.

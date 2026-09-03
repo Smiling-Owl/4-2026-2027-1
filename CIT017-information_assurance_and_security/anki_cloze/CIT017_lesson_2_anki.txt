@@ -83,3 +83,7 @@ Texts like the Information Security Management Handbook stress that security is 
 If technical controls are strong, attackers pivot to exploiting the {{c1::"People"}} and {{c2::"Process"}} components of the security triad.
 The Information Technology Security Handbook notes that social engineering frequently bleeds into the {{c1::physical realm}}, where a convincing {{c2::pretext}} can allow an attacker to bypass physical access controls.
 The primary texts referenced for social engineering include {{c1::Principles of Information Security}} by Whitman & Mattord, {{c2::Information Security: The Complete Reference}} by Rhodes-Ousley, {{c3::Information Security Management Handbook}} by Tipton & Krause, {{c4::Information Technology Security Handbook}} by Sadowsky et al., and {{c5::Information Security Fundamentals}} by Peltier et al.
+A social engineering {{c1::technique}} is the method of manipulation, while a {{c2::communication channel}} is how the attacker reaches the victim.
+Techniques such as {{c1::pretexting}} and {{c2::impersonation}} can operate through email, phone, SMS, social media, or in-person contact rather than belonging to only one channel.
+{{c1::Scareware}} is commonly delivered through a {{c2::website or pop-up}} and uses {{c3::fear and urgency}} to drive unsafe action.
+{{c1::Baiting}} can use email, in-person contact, or physical media, while {{c2::dumpster diving}} relies on discarded physical material.

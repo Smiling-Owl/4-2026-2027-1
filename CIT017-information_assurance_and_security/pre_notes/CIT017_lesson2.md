@@ -56,7 +56,21 @@ Social Engineering is the psychological manipulation of individuals into perform
 **F. Social Media-Based Techniques**
 *   **Angler Phishing:** Attackers monitor social media for customer complaints to brands, then pose as official customer support agents to extract credentials.
 
-3. Psychological Tactics & Principles of Influence (How They Do It)
+3. Communication Methods Used in Social Engineering
+
+A technique is the attacker's method, while a communication channel is how that method reaches the victim. One technique can operate across several channels.
+
+| Channel | Common Techniques |
+| :--- | :--- |
+| **Email** | Phishing, spear phishing, whaling, pretexting, baiting, quid pro quo, scareware, reverse social engineering, impersonation |
+| **Phone** | Vishing, pretexting, quid pro quo, reverse social engineering, impersonation |
+| **SMS** | Smishing, pretexting |
+| **Social Media** | Spear phishing, pretexting, impersonation |
+| **Website / Pop-Up** | Scareware |
+| **In-Person** | Pretexting, baiting, quid pro quo, reverse social engineering, tailgating, shoulder surfing, impersonation |
+| **Physical Media / Waste** | Baiting, dumpster diving |
+
+4. Psychological Tactics & Principles of Influence (How They Do It)
 
 Attackers rely on cognitive biases and the brain's fast, emotional response mode (often called "System 1" thinking). Below are the core psychological tactics (heavily aligned with Dr. Robert Cialdini's principles) used to bypass human judgment:
 
@@ -72,7 +86,7 @@ Attackers rely on cognitive biases and the brain's fast, emotional response mode
 | **Reciprocity** | Exploiting the human tendency to give something back when given a favor or gift. | *Offering free software in exchange for completing a "quick security survey" that asks for credentials.* |
 | **Commitment / Consistency** | Securing a small "yes" before asking for a larger compromise. | *Asking a simple non-security question first to establish a dialogue before asking for sensitive data.* |
 
-4. Academic Foundations & Countermeasures
+5. Academic Foundations & Countermeasures
 
 The psychological tactics and techniques discussed above are deeply grounded in the foundational texts of Information Assurance. These frameworks emphasize that social engineering cannot be solved by software alone:
 
@@ -81,7 +95,7 @@ The psychological tactics and techniques discussed above are deeply grounded in 
 *   **People, Process, and Technology:** Texts like the *Information Security Management Handbook* (Tipton & Krause) and *Information Security Fundamentals* (Peltier et al.) stress that security is a triad. If technical controls are strong, attackers pivot to exploiting the "People" and "Process" (e.g., bypassing physical security via tailgating or policy gaps).
 *   **Integration with Physical Security:** The *Information Technology Security Handbook* (Sadowsky et al.) notes that social engineering frequently bleeds into the physical realm. A convincing pretext can allow an attacker to bypass physical access controls (like a receptionist) just as easily as digital ones.
 
-5. Sources & References
+6. Sources & References
 
 *   **Primary Texts (per materials/books.md):**
     1. *Principles of Information Security*, 7th Ed. (Whitman & Mattord)
