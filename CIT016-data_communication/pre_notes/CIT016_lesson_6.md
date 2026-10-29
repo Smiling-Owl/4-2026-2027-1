@@ -6,9 +6,17 @@ The Point-to-Point Protocol (PPP) transports network-layer datagrams across a di
 
 A conventional PPP frame contains a flag, address, control, protocol, payload, frame check sequence (FCS), and ending flag. The protocol field identifies the payload protocol, and the FCS detects frame errors. The maximum receive unit (MRU) limits the payload size negotiated by the endpoints.
 
+![PPP frame showing its flags, address, control, protocol, information, and frame check sequence.](../synthesized_notes/assets/cit016/ppp-frame-p12.webp)
+
+*Source: `PPP.pdf`, p. 12. The diagram gives the control byte as `00000011`.*
+
 ## II. Transparency and Byte Stuffing
 
 Framing transparency preserves frame boundaries when reserved bytes occur in the transmitted data; PPP supports octet-stuffed asynchronous and bit-stuffed synchronous framing.
+
+![PPP byte stuffing marks reserved values so they are not mistaken for frame delimiters.](../synthesized_notes/assets/cit016/ppp-byte-stuffing-p16.webp)
+
+*Source: `PPP.pdf`, p. 16. This is a simplified overview; the Cornell note explains the XOR transformation.*
 
 ## III. PPP Operation and Protocols
 
@@ -17,6 +25,22 @@ The physical link becomes available, peers establish and configure the link thro
 - **PAP:** Password Authentication Protocol; a simple two-way exchange that sends the password in clear text and is vulnerable to exposure.
 - **CHAP:** Challenge Handshake Authentication Protocol; a peer issues a challenge and verifies a response computed with a shared secret. The secret itself is not sent in the response. It uses challenge, response, and success/failure exchanges, and can repeat challenges during the connection.
 - **NCP:** A family of protocols configures the network layer carried by PPP. IPCP configures IPv4; IPv6CP configures IPv6. Other examples in the slides include OSINLCP, IPXCP, DNCP, and NBFCP.
+
+![PPP setup includes link establishment, optional authentication, and network-layer protocol establishment.](../synthesized_notes/assets/cit016/ppp-connection-phases-p17.webp)
+
+*Source: `PPP.pdf`, p. 17.*
+
+![PAP exchanges an authentication request and an accept or reject response.](../synthesized_notes/assets/cit016/ppp-pap-p33.webp)
+
+*Source: `PPP.pdf`, p. 33.*
+
+![CHAP exchanges a challenge, a response computed using the shared secret, and a success or failure result.](../synthesized_notes/assets/cit016/ppp-chap-p38.webp)
+
+*Source: `PPP.pdf`, p. 38. The shared secret is not sent directly.*
+
+![LCP and authentication operate at the PPP data-link layer, and NCP configures network-layer protocols.](../synthesized_notes/assets/cit016/ppp-layer-protocols-p43.webp)
+
+*Source: `PPP.pdf`, p. 43.*
 
 PPP supplies framing, link configuration, and protocol multiplexing. It does not itself encrypt the payload or guarantee reliable retransmission of every frame; those properties require other mechanisms.
 

@@ -17,6 +17,36 @@
 | **PPP Limit** | PPP itself does not provide payload encryption or guarantee reliable retransmission of every frame; other protocols/mechanisms are needed for those services. |
 | **Clarification** | PPP slide text and frame diagram conflict on the control bit string; RFC 1662 gives the canonical value as `00000011` (`0x03`). |
 
+## Diagrams
+
+### PPP frame and byte stuffing
+
+![PPP frame fields, including the opening and closing flag, address, control, protocol, information, and FCS.](../assets/cit016/ppp-frame-p12.webp)
+
+*Source: `PPP.pdf`, p. 12. This diagram shows the canonical control value `00000011`.*
+
+![Simplified overview of adding and removing escape bytes to protect PPP frame boundaries.](../assets/cit016/ppp-byte-stuffing-p16.webp)
+
+*Source: `PPP.pdf`, p. 16. The slide illustrates the idea; see the byte-stuffing row above for the XOR transformation.*
+
+### PPP setup and protocols
+
+![PPP setup progresses through link establishment, optional authentication, and network-layer protocol establishment.](../assets/cit016/ppp-connection-phases-p17.webp)
+
+*Source: `PPP.pdf`, p. 17.*
+
+![PAP sends an authentication request and receives an accept or reject response.](../assets/cit016/ppp-pap-p33.webp)
+
+*Source: `PPP.pdf`, p. 33.*
+
+![CHAP exchanges a challenge, a secret-derived response, and a success or failure result.](../assets/cit016/ppp-chap-p38.webp)
+
+*Source: `PPP.pdf`, p. 38. The result follows challenge-response authentication; the shared secret is not sent directly.*
+
+![PPP separates data-link services such as LCP and authentication from the network-layer protocols configured by NCPs.](../assets/cit016/ppp-layer-protocols-p43.webp)
+
+*Source: `PPP.pdf`, p. 43.*
+
 ---
 
 ### Summary

@@ -21,6 +21,54 @@
 | **Transfer Modes** | **NRM:** primary initiates/control exchanges; secondary responds. **ABM:** either peer may initiate on a balanced point-to-point link. |
 | **Flow vs. Error Control** | Flow control prevents receiver overload; error control detects loss/corruption and coordinates recovery. |
 
+## Diagrams
+
+### Line discipline
+
+![ENQ/ACK exchange between a sender and receiver, including establishment, acknowledgment, data transfer, and termination.](../assets/cit016/dlc-enq-ack-p18.webp)
+
+*Source: `Data Link Control and Protocols.pdf`, p. 18.*
+
+![Polling asks a secondary station to send data; a response indicates whether it has data to transmit.](../assets/cit016/dlc-poll-p21.webp)
+
+*Source: `Data Link Control and Protocols.pdf`, p. 21.*
+
+![A primary station selects a secondary station before sending frames to it.](../assets/cit016/dlc-select-p22.webp)
+
+*Source: `Data Link Control and Protocols.pdf`, p. 22.*
+
+### Flow and error control
+
+![Stop-and-wait alternates one data frame with its acknowledgment.](../assets/cit016/dlc-stop-and-wait-p24.webp)
+
+*Source: `Data Link Control and Protocols.pdf`, p. 24.*
+
+![Sliding-window diagrams show the sender and receiver windows advancing as frames and acknowledgments move.](../assets/cit016/dlc-sliding-window-p25.webp)
+
+*Source: `Data Link Control and Protocols.pdf`, p. 25.*
+
+![Stop-and-wait ARQ retransmits an unacknowledged frame after a timeout.](../assets/cit016/dlc-stop-and-wait-arq-p28.webp)
+
+*Source: `Data Link Control and Protocols.pdf`, p. 28.*
+
+![Go-back-N retransmits the missing frame and later outstanding frames after a loss.](../assets/cit016/dlc-go-back-n-arq-p29.webp)
+
+*Source: `Data Link Control and Protocols.pdf`, p. 29.*
+
+![Selective Reject retransmits the missing frame while preserving later frames already received.](../assets/cit016/dlc-selective-reject-arq-p30.webp)
+
+*Source: `Data Link Control and Protocols.pdf`, p. 30.*
+
+### HDLC
+
+![HDLC frame format with opening and closing flags, address, control, payload, and frame check sequence.](../assets/cit016/hdlc-frame-p35.webp)
+
+*Source: `Data Link Control and Protocols.pdf`, p. 35.*
+
+![The HDLC information, supervisory, and unnumbered frames organize data, control, and link-management fields.](../assets/cit016/hdlc-frame-types-p37.webp)
+
+*Source: `Data Link Control and Protocols.pdf`, p. 37.*
+
 ---
 
 ### Summary
