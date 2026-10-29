@@ -1,0 +1,14 @@
+By geographic scope, network categories include {{c1::PAN, LAN, MAN, and WAN}}.
+A {{c1::PAN}} connects an individual's nearby devices; a {{c2::LAN}} connects devices at a limited site.
+A {{c1::MAN}} connects networks across a metropolitan area, while a {{c2::WAN}} spans broad geographic distances.
+A WLAN connects local devices wirelessly, often through a {{c1::Wi-Fi access point}}.
+In the classical Bluetooth model, a piconet has {{c1::one primary}} coordinating up to {{c2::seven active secondary devices}}.
+A {{c1::scatternet}} links Bluetooth piconets through a device that participates in more than one.
+Bluetooth slide figures such as {{c1::720 kbps or 3 Mbps}} are examples and are not universal limits across versions and devices.
+A cellular service area is divided into {{c1::cells}}, each served by a {{c2::base station or cell site}}.
+The satellite network {{c1::space segment}} contains satellites and communication payloads; the {{c2::ground segment}} includes stations and control facilities.
+Satellite ground stations use antennas to {{c1::transmit to and receive from satellites}} and connect satellite networks to other networks.
+{{c1::GEO}} satellites orbit about {{c2::36,000 km}} above the equator and can cover a large region with comparatively high latency.
+{{c1::MEO}} lies between {{c2::LEO and GEO}} in orbital altitude.
+The lesson describes {{c1::LEO}} satellites as orbiting at altitudes of several hundred kilometres.
+Network range, throughput, and reliability depend on {{c1::technology, equipment, deployment, and operating conditions}}; classroom examples are not universal caps.

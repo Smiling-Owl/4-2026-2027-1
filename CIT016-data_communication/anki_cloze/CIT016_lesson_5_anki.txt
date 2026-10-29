@@ -1,0 +1,14 @@
+Data Link Control coordinates reliable transfer over the {{c1::data-link physical link}} and handles {{c2::line discipline, flow control, and error control}}.
+{{c1::Line discipline}} decides which station may transmit and when.
+With {{c1::ENQ/ACK}}, the sender requests a transfer and the receiver {{c2::acknowledges}}; {{c3::EOT}} marks termination.
+In poll/select, a primary {{c1::polls}} a secondary to invite it to send and {{c2::selects}} a secondary when the primary has data to send.
+{{c1::Flow control}} prevents a sender from overwhelming the receiver's processing capacity or buffer.
+{{c1::Stop-and-wait flow control}} sends one frame and waits for its acknowledgment before sending another.
+{{c1::Sliding-window flow control}} permits several numbered frames to remain in transit at once.
+ARQ uses {{c1::acknowledgments, sequence numbers, timeouts, and retransmission}} to recover from missing or damaged frames.
+In {{c1::go-back-N ARQ}}, a failed frame causes retransmission of that frame and later outstanding frames.
+{{c1::Selective Reject ARQ}} retransmits only the missing or damaged frame and may buffer later frames.
+HDLC is a {{c1::bit-oriented}} data-link protocol family for {{c2::point-to-point and multipoint}} links.
+The HDLC flag pattern is {{c1::01111110}} and its FCS uses {{c2::CRC}}.
+HDLC {{c1::I-frames}} carry user data, {{c2::S-frames}} carry supervisory control, and {{c3::U-frames}} support link management.
+In HDLC {{c1::NRM}}, a primary controls exchanges; {{c2::ABM}} is balanced so either peer can initiate transmission.

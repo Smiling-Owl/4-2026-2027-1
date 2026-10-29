@@ -1,0 +1,11 @@
+{{c1::PPP}} transports multiprotocol network-layer datagrams over a {{c2::direct point-to-point link}}.
+A conventional PPP frame has {{c1::flag, address, control, protocol, payload, FCS, and closing flag}} fields.
+PPP uses flag {{c1::0x7E}}, fixed address {{c2::0xFF}}, and canonical control {{c3::0x03 (00000011)}} in HDLC-like octet framing.
+PPP's default {{c1::MRU}} is {{c2::1500 octets}}, and peers may negotiate a different value.
+PPP framing uses {{c1::byte stuffing}} to preserve frame boundaries around reserved values.
+{{c1::LCP}} establishes, configures, tests, maintains, and terminates a PPP link.
+PPP authentication is {{c1::optional}} and, when used, occurs after {{c2::link establishment}}.
+{{c1::PAP}} is a two-way handshake that sends the password in {{c2::clear text}}.
+{{c1::CHAP}} uses a challenge and a response computed using a shared secret; the secret is {{c2::not sent directly as the response}}.
+{{c1::NCPs}} configure the network-layer protocols carried by PPP; {{c2::IPCP}} handles IPv4 and {{c3::IPv6CP}} handles IPv6.
+PPP itself does not provide {{c1::payload encryption}} or guarantee {{c2::reliable retransmission of every frame}}.
